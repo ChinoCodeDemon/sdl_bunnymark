@@ -24,6 +24,7 @@ void Bunny::setTexture(const std::string& path, SDL_Renderer* renderer){
     SDL_Surface* surface = IMG_Load(path.c_str());
 
     Bunny::spriteTexture = SDL_CreateTextureFromSurface(renderer, surface);
+    SDL_FreeSurface(surface);
 }
 
 void Bunny::update(const ldc::Vector2<int>& viewSize){

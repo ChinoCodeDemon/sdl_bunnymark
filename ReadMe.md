@@ -10,3 +10,4 @@ You can build it with meson.
 4. go into ./build
 5. run the `meson compile`
 6. a file called sdl_bunnymark should be now in the build folder.
+7. make sure that you have sdl_bunnymark in the same folder as Roboto-Regular.ttf and rabbitv3.png
